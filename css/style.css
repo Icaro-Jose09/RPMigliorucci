@@ -63,6 +63,13 @@ button { font: inherit; }
 }
 .header-cta:hover { background: var(--ink); color: var(--paper); }
 .header-cta span, .button span, .contact-email span, .contact-whatsapp span { margin-left: 8px; }
+.icon-arrow {
+  width: 0.85em;
+  height: 0.85em;
+  vertical-align: -0.08em;
+  stroke: currentColor;
+  fill: none;
+}
 .menu-toggle { display: none; background: none; border: 0; cursor: pointer; width: 40px; }
 .menu-toggle span { display: block; height: 1px; background: var(--ink); margin: 7px 0; }
 
